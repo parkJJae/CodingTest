@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        // Please write your code here.
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        int i = 3;
+
+        while(i<=n){
+            System.out.print(i + " ");
+            i+=3;
+        }
+    }
+}
